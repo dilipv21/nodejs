@@ -1,0 +1,15 @@
+{
+  "name": "exnodetranslate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-translate": "0.0.2",
+    "node-json-transform": "^1.0.16"
+  }
+}

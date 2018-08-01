@@ -1,0 +1,39 @@
+{
+	"info": {
+		"name": "TestRestAdaptor",
+		"_postman_id": "2ebf208a-6e4e-0e06-9434-ddfe6f89a688",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"nbnCorrelationId\": \"c1cdc0e421f53f60\",\n  \"workflowName\": \"NCD_Test\",\n  \"replyTo\": \"http://ncd-api/v1/notify\",\n  \"data\": {\n    \"genericHTTPRequest\": {\n      \"requestName\": \"NCD UNI-D Status\",\n      \"requestMethod\": \"POST\",\n      \"requestURI\": \"https://httpstat.us/200?sleep=10000\",\n      \"requestTimeout\": \"60\",\n      \"requestHeaders\": {},\n      \"requestBody\": {}\n    }\n  }\n}\n\n\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

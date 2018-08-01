@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item_authorizes generated_time="2014/05/07 18:01:49">
+  <item_authorize>
+    <id>1</id>
+    <name>test_1</name>
+    <enchant_attr_list>
+      <data>
+        <level>1</level>
+        <attr1>PvPAttackRatio_Physical_O 2</attr1>
+        <attr2>damage_physical 10</attr2>
+        <attr3>hit_accuracy 5</attr3>
+        <attr4>block 10</attr4>
+      </data>
+      <data>
+        <level>2</level>
+        <attr1>PvPAttackRatio_Physical_O 4</attr1>
+        <attr2>damage_magical 10</attr2>
+        <attr3>physical_defend 10</attr3>
+        <attr4>hit_accuracy 20</attr4>
+      </data>
+    </enchant_attr_list>
+  </item_authorize>
+</item_authorizes>

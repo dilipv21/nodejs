@@ -1,0 +1,16 @@
+{
+  "name": "nodesamples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dilipv",
+  "license": "ISC",
+  "dependencies": {
+    "iconv-lite": "^0.4.19",
+    "xslt-processor": "^0.10.0",
+    "zlib": "^1.0.5"
+  }
+}
